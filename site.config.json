@@ -1,0 +1,69 @@
+{
+  "person": {
+    "name": "Ataullah Sharukhi",
+    "role": "Indie Developer",
+    "avatar": "https://avatars.githubusercontent.com/u/95465993",
+    "email": "mail@sharukhi.net",
+    "copyright": "Sharukhi"
+  },
+  "social": {
+    "x": "https://x.com/sharukhi_",
+    "github": "https://github.com/sharukhi"
+  },
+  "nav": {
+    "themeToggleLabel": "System",
+    "backLabel": "← Home"
+  },
+  "theme": {
+    "defaultTheme": "system",
+    "fontFamily": "'JetBrains Mono', ui-monospace, monospace",
+    "fontSize": "0.9375rem",
+    "lineHeight": "1.55",
+    "contentWidth": "600px",
+    "colors": {
+      "light": {
+        "background": "#f4f5ef",
+        "text": "#0a0b08",
+        "textMuted": "#3a3d32",
+        "link": "#0a0b08",
+        "linkHover": "#8a8f80",
+        "border": "rgba(10,11,8,0.10)"
+      },
+      "dark": {
+        "background": "#0a0b08",
+        "text": "#eef0e6",
+        "textMuted": "#8a8f80",
+        "link": "#eef0e6",
+        "linkHover": "#c8ff3a",
+        "border": "rgba(238,240,230,0.06)"
+      }
+    }
+  },
+  "seo": {
+    "siteUrl": "https://sharukhi.net",
+    "defaultTitle": "Ataullah Sharukhi",
+    "defaultDescription": "sharukhi.net",
+    "defaultOgImage": "/og.png",
+    "twitterHandle": "@sharukhi_",
+    "locale": "en_US",
+    "themeColor": "#0a0b08",
+    "robots": "index, follow"
+  },
+  "works": [
+    {
+    "name": "Khobor",
+    "description": "Minimalist Bangladesh news app",
+    "url": "https://github.com/sharukhi/khobor"
+  },
+  {
+    "name": "Lofi-Box",
+    "description": "Lo-fi music Chrome extension",
+    "url": "https://github.com/sharukhi/lofi-box"
+  },
+  {
+    "name": "DriveSafe",
+    "description": "Real-time driver drowsiness detection",
+    "url": "https://github.com/sharukhi/drivesafe"
+  }
+  ]
+}
