@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/next';
 import config from "@/site.config.json";
 import { buildMetadata } from "@/lib/seo";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = buildMetadata();
 
@@ -83,6 +85,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           enableSystem
         >
           {children}
+          <Analytics />
+          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>
