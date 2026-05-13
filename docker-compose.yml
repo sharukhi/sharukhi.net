@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+
+    container_name: www
+
+    restart: always
+
+    ports:
+      - "3000:3000"
+
+    env_file:
+      - .env.production
