@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
-import { Analytics } from '@vercel/analytics/next';
 import config from "@/site.config.json";
 import { buildMetadata } from "@/lib/seo";
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = buildMetadata();
 
@@ -77,6 +75,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <meta name="apple-mobile-web-app-title" content="sharukhi.net" />
         <link rel="manifest" href="/site.webmanifest" />
+        <script type="module" data-entity="www" src="https://stats.sharukhi.net/script.js"></script>
       </head>
       <body>
         <ThemeProvider
@@ -85,8 +84,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           enableSystem
         >
           {children}
-          <Analytics />
-          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>
